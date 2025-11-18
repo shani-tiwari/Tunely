@@ -3,6 +3,7 @@ import {Link, useNavigate} from 'react-router-dom'
 
 
 function Connect() {
+  document.title = 'Connect';
     const navigate   = useNavigate();
 
   return (
@@ -26,12 +27,13 @@ function Connect() {
           <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-2">
             SHANI TIWARI
           </h2>
-          <p className="text-gray-800 mb-4">
-            Full Stack Developer | React, Node.js, MongoDB, TailwindCSS
+          {/* <hr /> */}
+          <p className="text-gray-900 mb-4">
+            Full Stack Developer <hr /> React, Node.js, MongoDB, Express, AI
           </p>
 
           {/* Social Links */}
-          <div className="flex justify-center sm:justify-start gap-6 text-gray-500">
+          <div className="flex justify-center sm:justify-start gap-6 text-gray-100">
             <a
               href="https://x.com/ShaniTiwar51891"
               target="_blank"
@@ -49,6 +51,7 @@ function Connect() {
                 <path d="M23 3a10.9 10.9 0 01-3.14.86 4.48 4.48 0 001.96-2.48 9.03 9.03 0 01-2.89 1.11 4.52 4.52 0 00-7.7 4.12A12.8 12.8 0 013 4s-4 9 5 13a13 13 0 01-8 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z" />
               </svg>
             </a>
+            {/* linkedin */}
             <a
               href="https://www.linkedin.com/in/shani-tiwari-aspirational/"
               target="_blank"
@@ -56,7 +59,6 @@ function Connect() {
               aria-label="LinkedIn"
               className="hover:text-blue-700 hover:scale-125 transition-all duration-300"
             >
-              {/* LinkedIn SVG */}
               <svg
                 className="w-6 h-6"
                 fill="currentColor"
@@ -96,7 +98,7 @@ function Connect() {
                 </g>
               </svg>
             </a>
-
+            {/* github */}
             <a
               href="https://github.com/shani-tiwari"
               target="_blank"
@@ -104,7 +106,6 @@ function Connect() {
               aria-label="GitHub"
               className="hover:text-gray-900 hover:scale-125 transition-all duration-300"
             >
-              {/* GitHub SVG */}
               <svg
                 className="w-6 h-6"
                 fill="currentColor"
@@ -152,6 +153,18 @@ function Connect() {
                 </g>
               </svg>
             </a>
+            {/* discord */}
+            <a
+              href="https://discord.com/channels/@me"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram"
+              className="hover:text-blue-700 hover:scale-125 transition-all duration-300"
+            >
+             <svg className="w-7 h-7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M19.3034 5.33716C17.9344 4.71103 16.4805 4.2547 14.9629 4C14.7719 4.32899 14.5596 4.77471 14.411 5.12492C12.7969 4.89144 11.1944 4.89144 9.60255 5.12492C9.45397 4.77471 9.2311 4.32899 9.05068 4C7.52251 4.2547 6.06861 4.71103 4.70915 5.33716C1.96053 9.39111 1.21766 13.3495 1.5891 17.2549C3.41443 18.5815 5.17612 19.388 6.90701 19.9187C7.33151 19.3456 7.71356 18.73 8.04255 18.0827C7.41641 17.8492 6.82211 17.5627 6.24904 17.2231C6.39762 17.117 6.5462 17.0003 6.68416 16.8835C10.1438 18.4648 13.8911 18.4648 17.3082 16.8835C17.4568 17.0003 17.5948 17.117 17.7434 17.2231C17.1703 17.5627 16.576 17.8492 15.9499 18.0827C16.2789 18.73 16.6609 19.3456 17.0854 19.9187C18.8152 19.388 20.5875 18.5815 22.4033 17.2549C22.8596 12.7341 21.6806 8.80747 19.3034 5.33716ZM8.5201 14.8459C7.48007 14.8459 6.63107 13.9014 6.63107 12.7447C6.63107 11.5879 7.45884 10.6434 8.5201 10.6434C9.57071 10.6434 10.4303 11.5879 10.4091 12.7447C10.4091 13.9014 9.57071 14.8459 8.5201 14.8459ZM15.4936 14.8459C14.4535 14.8459 13.6034 13.9014 13.6034 12.7447C13.6034 11.5879 14.4323 10.6434 15.4936 10.6434C16.5442 10.6434 17.4038 11.5879 17.3825 12.7447C17.3825 13.9014 16.5548 14.8459 15.4936 14.8459Z"></path></svg>
+
+            </a>
+            
           </div>
         </div>
       </div>
